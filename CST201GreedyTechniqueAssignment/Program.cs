@@ -1,6 +1,5 @@
 ﻿using CST201GreedyTechniqueAssignment;
-//GeeksforGeeks. (2012, March 19). 0/1 Knapsack Problem. GeeksforGeeks. https://www.geeksforgeeks.org/dsa/0-1-knapsack-problem-dp-10/
-‌
+//GeeksforGeeks. (2012, March 19). 0/1 Knapsack Problem. GeeksforGeeks. https://www.geeksforgeeks.org/dsa/0-1-knapsack-problem-dp-10/‌
 
 // Initialize variables
 int regularMaximumWeight = 280;
@@ -19,7 +18,6 @@ List<Item> items = new List<Item>
 // Initialize total value and steps for each technique
 int regularTotalValue = 0;
 int quantityTotalValue = 0;
-int dynamicTotalValue = 0;  
 int regularGreedySteps = 0;
 int quantityGreedySteps = 0;
 int dynamicGreedySteps = 0;
