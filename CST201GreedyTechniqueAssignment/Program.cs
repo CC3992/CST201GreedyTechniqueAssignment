@@ -79,7 +79,7 @@ for (int currentWeight = 0; currentWeight <= dynamicMaximumWeight; currentWeight
     }
 }
 // Print the info
-Console.WriteLine("Dynamic Programming Result");
+Console.WriteLine("Dynamic Programming Greedy Technique");
 Console.WriteLine("Maximum Value: " + bestValueAtWeight[dynamicMaximumWeight]);
 Console.WriteLine("Steps: " + dynamicGreedySteps);
 
